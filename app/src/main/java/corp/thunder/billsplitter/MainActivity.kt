@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
 
         if (amount.isNotEmpty() && people.isNotEmpty()) {
             if(people.toDouble()!=0.0){
-            var bill: Double = (amount.toDouble() / people.toDouble()).roundToInt().toDouble() / 100
+            var bill: Double = amount.toDouble() / people.toDouble()
             tvMessage.text = "Each person will have to pay an amount of $bill"}
         }
         if (amount.isEmpty() && people.isEmpty()) {
