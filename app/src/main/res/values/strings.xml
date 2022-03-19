@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Bill Splitter</string>
+    <string name="enter_the_bill_amount">Enter the bill amount</string>
+    <string name="_4">4</string>
+    <string name="enter_no_of_persons">Enter no of persons</string>
+    <string name="_400">400</string>
+    <string name="each_person_will_have_to_pay_an_amount_of_0_00">Each person will have to pay an amount of 0.00</string>
+    <string name="split">Split</string>
+</resources>
